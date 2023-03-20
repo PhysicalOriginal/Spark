@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="spark_background_color">#0A000000</color>
+    <color name="spark_color">#ffFFFFFF</color>
+    <color name="spark_gradient_start_color">#1AFFFFFF</color>
+</resources>

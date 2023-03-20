@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SparkHub</string>
+    <dimen name="spark_width">60dp</dimen>
 </resources>

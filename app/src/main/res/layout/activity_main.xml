@@ -6,13 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <com.zwt.spark.SparkView
+        android:id="@+id/spark_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:sparkDuration="1000"
+        app:sparkSlope="-1"
+        app:sparkDirection="LT_RB"
+        app:sparkWidth="@dimen/spark_width"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

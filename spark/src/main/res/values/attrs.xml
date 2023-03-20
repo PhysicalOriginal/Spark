@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SparkView">
+        <attr name="sparkColor" format="color"/>
+        <attr name="sparkWidth" format="dimension"/>
+        <attr name="sparkSlope" format="float"/>
+        <attr name="sparkDuration" format="integer"/>
+        <attr name="sparkDirection">
+            <enum name = "LT_RB" value = "0"/>
+            <enum name = "RB_LT" value = "1"/>
+            <enum name = "LB_RT" value = "2"/>
+            <enum name = "RT_LB" value = "3"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
